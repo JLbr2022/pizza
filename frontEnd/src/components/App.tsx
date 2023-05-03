@@ -1,5 +1,6 @@
 import Avatar from './Avatar/Avatar'
 import Main from './Main/Main'
+import Promos from './Main/Promos'
 export default function App() {
   return (
     <div
@@ -11,6 +12,7 @@ export default function App() {
     >
       <Avatar />
       <Main />
+      <Promos />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Promos from './Promos'
 
 function Card() {
   const pzImage = {
@@ -23,7 +24,7 @@ function Card() {
         <button
           type="submit"
           className="
-           bg-green-900 
+          bg-green-900 
           rounded-md px-3 py-1 text-sm 
           font-sans text-green-200 
           mr-2 mb-2
