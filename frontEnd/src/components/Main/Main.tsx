@@ -1,9 +1,12 @@
 import React from 'react'
+import Card from './Card'
+import Search from './Search'
 
 function Main() {
   return (
-    <div>
-      <h1>Main</h1>
+    <div className="p-2">
+      <Search />
+      <Card />
     </div>
   )
 }
