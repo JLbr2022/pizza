@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './headerStyles.css'
 
 function DrawerMenu() {
   const [isOpen, setIsOpen] = useState(false)
@@ -6,18 +7,10 @@ function DrawerMenu() {
     <main>
       {!isOpen ? (
         <div className="text-center">
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="inline-flex items-center
-                mr-3 text-sm text-gray-500
-                rounded-lg md:hidden hover:bg-gray-100
-                focus:outline-none focus:ring-2 focus:ring-gray-200
-                dark:text-yellow-500 dark:hover:bg-green-900 dark:focus:ring-gray-600
-                transform transition-all hover:scale-125"
-          >
+          <button onClick={() => setIsOpen(!isOpen)} className="buttonMenu">
             <svg
               className="w-7 h-7 m-1
-               transition-all hover:scale-10"
+              transition-all hover:scale-10"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -31,14 +24,8 @@ function DrawerMenu() {
           </button>
         </div>
       ) : (
-        <div
-          id="drawer-bottom-example"
-          className="
-          fixed bottom-0 left-0 right-0 z-40 w-full p-4 overflow-y-auto 
-          bg-white dark:bg-green-900 transform-none
-          transition-all duration-500 ease-out"
-        >
-          <h5 className="inline-flex items-center mb-4 text-base font-semibold text-gray-500 dark:text-gray-400">
+        <div id="drawer-bottom-example" className="buttonAdminTitle">
+          <h5 className="h5Drawer">
             <svg
               className="w-5 h-5 mr-2"
               aria-hidden="true"
@@ -53,12 +40,7 @@ function DrawerMenu() {
           <button
             onClick={() => setIsOpen(false)}
             type="button"
-            className="text-gray-400 bg-transparent 
-              hover:bg-gray-200 hover:text-gray-900 
-              rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 
-              inline-flex items-center 
-              dark:hover:bg-red-800 dark:hover:text-yellow-500
-              transform transition-all hover:scale-125"
+            className="buttonXDrawer"
           >
             <svg
               className="w-5 h-5 transition-all hover:scale-10"
@@ -73,21 +55,14 @@ function DrawerMenu() {
               ></path>
             </svg>
           </button>
-          <div className="mb-3">
+          <div className="mb-3 mr-3">
             <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
               Email
             </label>
             <input
+              className="inputEmail"
               type="text"
               id="subject"
-              className="
-              mb-1 bg-gray-50 border border-gray-300
-              text-gray-900 text-sm rounded-lg
-              focus:ring-blue-500 focus:border-blue-500 
-              block w-full p-2.5
-              dark:bg-gray-300 dark:border-gray-600
-              dark:placeholder-gray-600 dark:text-gray-800 font-semibold
-              dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="example@email.com"
               required
             />
@@ -95,27 +70,17 @@ function DrawerMenu() {
               Clave
             </label>
             <input
+              className="inputPassword"
               type="text"
               id="subject"
-              className="
-              bg-gray-50 border border-gray-300
-              text-gray-900 text-sm rounded-lg
-              focus:ring-blue-500 focus:border-blue-500 
-              block w-full p-2.5
-              dark:bg-gray-300 dark:border-gray-600
-              dark:placeholder-gray-600 dark:text-gray-800 font-semibold
-              dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="********"
               required
             />
           </div>
           <button
+            className="buttonLogin"
             onClick={() => setIsOpen(false)}
-            className="inline-flex items-center px-4 py-2 text-sm font-medium text-center
-          text-white bg-blue-700 rounded-lg
-          hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 
-          dark:bg-green-800 dark:hover:bg-green-700 
-          focus:outline-none dark:focus:ring-yellow-400"
+            type="button"
           >
             Entrar{' '}
             <svg

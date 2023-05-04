@@ -1,0 +1,27 @@
+/* SEARCH BAR COMPONENTS STYLES bg-[#80110a]*/
+
+.input {
+  @apply block w-full p-4 pl-10 text-sm text-yellow-300 border border-yellow-300 rounded-lg bg-red-900 placeholder-yellow-700;
+}
+
+.input:focus {
+  @apply ring-yellow-500 border-yellow-500
+}
+
+/* CARD COMPONENTS STYLES */
+
+.divTitle {
+  @apply font-bold text-yellow-500 text-xl mb-1 flex justify-center;
+}
+
+.pIngredients {
+  @apply text-gray-300 text-base flex justify-center
+}
+
+.pPrice {
+  @apply text-yellow-500 font-semibold text-base flex justify-center
+}
+
+.buttonSubmit {
+  @apply bg-green-900 rounded-md text-lg font-sans text-green-200 flex justify-center w-full p-2
+}

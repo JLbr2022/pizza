@@ -4,10 +4,10 @@ import Search from './Search'
 
 function Main() {
   return (
-    <div className="p-2">
+    <main>
       <Search />
       <Card />
-    </div>
+    </main>
   )
 }
 

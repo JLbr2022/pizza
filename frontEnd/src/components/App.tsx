@@ -5,7 +5,7 @@ import '../components/app.css'
 
 export default function App() {
   return (
-    <div className="container">
+    <div className="container mx-auto">
       <Header />
       <Main />
       <Footer />

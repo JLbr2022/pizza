@@ -4,7 +4,9 @@ import Promos from './Promos'
 function Footer() {
   return (
     <div>
-      <Promos />
+      <section id="footer" className="">
+        <Promos />
+      </section>
     </div>
   )
 }

@@ -4,14 +4,16 @@ function Promos() {
   return (
     <div
       className="
-          flex flex-row rounded-lg
+          flex flex-row mx-auto w-full xs:mr-1
+        
         bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
-        dark:bg-orange-800 md:max-w-xl md:flex-row
+        dark:bg-orange-800 
+        border border-yellow-600
         
         "
     >
       <img
-        className="h-30 w-20 mb-0 rounded-sm object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-md"
+        className="h-30 w-20 mb-0 object-cover md:rounded-none md:rounded-l-md"
         src="/src/public/images/pz_CalabrezaCatupiri.jpg"
         alt="Calabreza con Catupirí"
       />
@@ -20,10 +22,10 @@ function Promos() {
           PROMOCION
         </p>
         <h5 className="mb-1 mt-0 text-md font-semibold text-neutral-800 dark:text-neutral-50">
-          Calabreza con Catupirí
+          Calabreza con Catupiry
         </h5>
         <p className="text-sm text-neutral-600 dark:text-neutral-200">
-          Ingrediente: Catupirí, mozzarela, Aceitunas
+          Ingredientes: Catupiry, mozzarela, Aceitunas
         </p>
       </div>
     </div>

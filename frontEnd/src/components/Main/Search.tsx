@@ -2,7 +2,7 @@ import React from 'react'
 
 function Search() {
   return (
-    <form className="mb-2 mt-2">
+    <form className="mr-2 ml-2 mt-5 mb-2">
       <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
         Buscar
       </label>
@@ -27,19 +27,15 @@ function Search() {
         <input
           type="search"
           id="default-search"
-          className="
-            block w-full p-4 pl-10 text-sm
-            text-yellow-900 border
-            border-yellow-300 rounded-lg bg-yellow-500
-            focus:ring-yellow-500 focus:border-yellow-500
-            dark:bg-[#80110a] dark:border-yellow-400
-            dark:placeholder-yellow-700 dark:text-yellow-100
-            dark:focus:ring-green-500 dark:focus:border-green-500"
-          placeholder="Pizza, bebida, ingrediente..."
+          placeholder="pizza, bebida, ingrediente, precio..."
           required
+          className="input"
         />
-        <button type="submit" className="button">
-          Buscar
+        <button
+          type="submit"
+          className="button p-4 transform transition-color duration-300"
+        >
+          <p>Buscar</p>
         </button>
       </div>
     </form>
