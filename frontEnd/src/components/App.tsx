@@ -1,18 +1,14 @@
-import Avatar from './Avatar/Avatar'
+import Header from './Header/Header'
 import Main from './Main/Main'
-import Promos from './Main/Promos'
+import Footer from './Footer/Footer'
+import '../components/app.css'
+
 export default function App() {
   return (
-    <div
-      className="
-        bg-[#80110a]
-        border-4 
-        w-screen h-screen 
-        "
-    >
-      <Avatar />
+    <div className="container">
+      <Header />
       <Main />
-      <Promos />
+      <Footer />
     </div>
   )
 }
