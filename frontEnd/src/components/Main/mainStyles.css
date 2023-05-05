@@ -1,14 +1,18 @@
 /* SEARCH BAR COMPONENTS STYLES bg-[#80110a]*/
 
-.input {
-  @apply block w-full p-4 pl-10 text-sm text-yellow-300 border border-yellow-300 rounded-lg bg-red-900 placeholder-yellow-700;
+.inputSearch {
+  @apply bg-[#80110a] block w-full p-4 pl-10 text-sm text-yellow-300 border border-yellow-300 rounded-lg placeholder-yellow-700;
 }
 
-.input:focus {
+.inputSearch:hover {
   @apply ring-yellow-500 border-yellow-500
 }
 
 /* CARD COMPONENTS STYLES */
+
+.sectionCard:hover {
+  @apply shadow-2xl transition-shadow duration-300 ease-in-out;
+}
 
 .divTitle {
   @apply font-bold text-yellow-500 text-xl mb-1 flex justify-center;
@@ -24,4 +28,26 @@
 
 .buttonSubmit {
   @apply bg-green-900 rounded-md text-lg font-sans text-green-200 flex justify-center w-full p-2
+}
+
+.buttonSubmit:hover {
+  @apply bg-green-800 text-yellow-300 drop-shadow-md transition-colors duration-100 animated-bounce;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-1px);
+  }
+}
+
+.animated-bounce {
+  animation-name: bounce;
+  animation-duration: 300ms;
+  animation-iteration-count: infinite;
 }

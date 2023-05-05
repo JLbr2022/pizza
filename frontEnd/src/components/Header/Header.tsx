@@ -40,7 +40,10 @@ export default function Avatar() {
         }}
       />
       <div className="flex justify-between">
-        <h1 className="text-yellow-500 font-black text-2xl">
+        <h1
+          className="text-yellow-500 font-black 
+              flex text-2xl sm:text-5xl md:text-6xl lg:text-7xl"
+        >
           PizzaTown Delivery
         </h1>
       </div>

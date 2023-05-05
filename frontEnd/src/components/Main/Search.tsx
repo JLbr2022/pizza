@@ -29,7 +29,7 @@ function Search() {
           id="default-search"
           placeholder="pizza, bebida, ingrediente, precio..."
           required
-          className="input"
+          className="inputSearch "
         />
         <button
           type="submit"

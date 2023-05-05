@@ -11,5 +11,5 @@
 }
 
 .container {
-  @apply bg-[#80110a] border-4 w-screen h-screen;
+  @apply bg-[#80110a];
 }
