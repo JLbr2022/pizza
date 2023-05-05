@@ -5,7 +5,7 @@
 }
 
 .inputSearch:hover {
-  @apply ring-yellow-500 border-yellow-500
+  @apply ring-yellow-500 border-yellow-500;
 }
 
 /* CARD COMPONENTS STYLES */
@@ -19,15 +19,15 @@
 }
 
 .pIngredients {
-  @apply text-gray-300 text-base flex justify-center
+  @apply text-gray-300 text-base flex justify-center;
 }
 
 .pPrice {
-  @apply text-yellow-500 font-semibold text-base flex justify-center
+  @apply text-yellow-500 font-semibold text-base flex justify-center;
 }
 
 .buttonSubmit {
-  @apply bg-green-900 rounded-md text-lg font-sans text-green-200 flex justify-center w-full p-2
+  @apply bg-green-900 rounded-md text-lg font-sans text-green-200 flex justify-center w-full p-2;
 }
 
 .buttonSubmit:hover {
