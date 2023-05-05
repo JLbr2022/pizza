@@ -8,13 +8,11 @@ function Card() {
   }
   return (
     <section className="card">
-      <div className="sectionCard max-w-sm rounded mx-auto">
+      <div className="sectionCard">
         <img className="w-full" src={pzImage.image} alt="Pizza con tomate" />
-        <div className="px-2 py-2">
+        <div className="px-2 py-2 text-center">
           <div className="divTitle">Pizza con Tomate</div>
-          <p className="pIngredients">
-            Ingredientes: Tomate, mozzarela, Aceitunas
-          </p>
+          <div className="pIngredients">Tomate, mozzarela, Aceitunas</div>
           <p className="pPrice">Precio: R$40</p>
         </div>
 
