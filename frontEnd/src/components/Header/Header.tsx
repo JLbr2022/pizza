@@ -11,8 +11,6 @@ export default function Avatar() {
   const avatar = {
     name: 'Pizzatown Delivery',
     image: '/src/public/images/avatar.svg'
-    // height: '4rem',
-    // width: '3rem'
   }
 
   return (
@@ -49,8 +47,6 @@ export default function Avatar() {
         "
         style={{
           backgroundImage: `url(${avatar.image})`
-          // height: avatar.height,
-          // width: avatar.width
         }}
       />
       <div className="flex justify-between">
