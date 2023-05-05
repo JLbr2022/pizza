@@ -10,9 +10,9 @@ export default function Avatar() {
 
   const avatar = {
     name: 'Pizzatown Delivery',
-    image: '/src/public/images/avatar.svg',
-    height: '4rem',
-    width: '3rem'
+    image: '/src/public/images/avatar.svg'
+    // height: '4rem',
+    // width: '3rem'
   }
 
   return (
@@ -31,12 +31,26 @@ export default function Avatar() {
         className="
         flex justify-center
         bg-center bg-no-repeat bg-contain
-        ml-2 mt-4
+        
+        h-96 w-14 
+        mt-0 ml-4
+
+        sm:h-96 sm:w-14 
+        sm:mt-0 sm:ml-5 
+        
+        md:h-96 md:w-20 
+        md:mt-6 md:ml-5 
+        
+        lg:h-96 lg:w-20 
+        lg:mt-6 lg:ml-5 
+        
+        xl:h-96 xl:w-20 
+        xl:mt-6 xl:ml-5
         "
         style={{
-          backgroundImage: `url(${avatar.image})`,
-          height: avatar.height,
-          width: avatar.width
+          backgroundImage: `url(${avatar.image})`
+          // height: avatar.height,
+          // width: avatar.width
         }}
       />
       <div className="flex justify-between">
