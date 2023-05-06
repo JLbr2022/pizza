@@ -9,7 +9,13 @@ function DrawerMenu() {
         <div className="text-center">
           <button onClick={() => setIsOpen(!isOpen)} className="buttonMenu">
             <svg
-              className="w-7 h-7 m-1
+              className="
+              m-4
+              w-12 h-12
+              
+              sm:w-12 sm:h-12
+              xl:w-16 xl:h-16
+
               transition-all hover:scale-10"
               fill="currentColor"
               viewBox="0 0 20 20"

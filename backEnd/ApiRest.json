@@ -1,0 +1,64 @@
+{
+  "cardContent": [
+    {
+      "id": 1,
+      "title": "Pizza con Tomate",
+      "ingredients": "Tomate, Mozzarella, Aceitunas",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "title": "Pizza con Papas",
+      "ingredients": "Papa, Mozzarella, Aceitunas",
+      "price": 30
+    },
+    {
+      "id": 3,
+      "title": "Pizza con Peperoni",
+      "ingredients": "Peperoni, Mozzarella, Aceitunas",
+      "price": 20
+    },
+    {
+      "id": 4,
+      "title": "Pizza con Mozzarela",
+      "ingredients": "Mozzarella, Aceitunas",
+      "price": 20
+    },
+    {
+      "id": 5,
+      "title": "Pizza con Anchoas",
+      "ingredients": "Anchoas, Mozzarella, Aceitunas",
+      "price": 50
+    },
+    {
+      "id": 6,
+      "title": "Pizza con Brocoli",
+      "ingredients": "Brocoli, Mozzarella, Aceitunas",
+      "price": 44
+    },
+    {
+      "id": 7,
+      "title": "Pizza con Bacon",
+      "ingredients": "Bacon, Mozzarella, Aceitunas",
+      "price": 33
+    },
+    {
+      "id": 8,
+      "title": "Pizza con Chorizo",
+      "ingredients": "Chorizo, Mozzarella, Aceitunas",
+      "price": 55
+    },
+    {
+      "id": 9,
+      "title": "Pizza con Margarita",
+      "ingredients": "Tomate, Mozzarella, Aceitunas",
+      "price": 43
+    },
+    {
+      "id": 10,
+      "title": "Pizza con 4 Quesos",
+      "ingredients": "4 Quesos, Mozzarella, Aceitunas",
+      "price": 48
+    }
+  ]
+}

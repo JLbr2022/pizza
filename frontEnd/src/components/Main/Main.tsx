@@ -1,51 +1,36 @@
-import React from 'react'
-import Card from './Card'
-import Search from './Search'
+import React, { useEffect, useState } from 'react'
+import Card, { CardContent } from './Card'
+
+const API_URL = 'http://localhost:3000/cardContent'
 
 function Main() {
+  const [cardInfo, setCardInfo] = useState<CardContent[]>([])
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(API_URL)
+      const data = await response.json()
+      setCardInfo(data)
+    }
+    fetchData()
+  }, [])
+
   return (
     <main>
-      <Search />
       <div
         className="grid 
-                      xs:grid-cols-1 
-                      sm:grid-cols-2 
-                      md:grid-cols-3 
-                      lg:grid-cols-4 
-                      xl:grid-cols-5 
-                      gap-4 p-2
-                      "
+                    xs:grid-cols-1 
+                    sm:grid-cols-2 
+                    md:grid-cols-3 
+                    lg:grid-cols-4 
+                    xl:grid-cols-5 
+                    gap-4 p-4
+                    transition-all duration-200
+                  "
       >
-        <div className="">
-          <Card />
-        </div>
-        <div className="hidden sm:flex">
-          <Card />
-        </div>
-        <div className="hidden sm:flex">
-          <Card />
-        </div>
-        <div className="hidden sm:flex">
-          <Card />
-        </div>
-        <div className="hidden md:flex">
-          <Card />
-        </div>
-        <div className="hidden md:flex">
-          <Card />
-        </div>
-        <div className="hidden lg:flex">
-          <Card />
-        </div>
-        <div className="hidden lg:flex">
-          <Card />
-        </div>
-        <div className="hidden xl:flex">
-          <Card />
-        </div>
-        <div className="hidden xl:flex">
-          <Card />
-        </div>
+        {cardInfo.map((card) => (
+          <Card key={card.id} card={card} />
+        ))}
       </div>
     </main>
   )

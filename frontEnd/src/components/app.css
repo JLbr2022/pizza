@@ -11,5 +11,5 @@
 }
 
 .container {
-  @apply bg-[#80110a];
+  @apply bg-[#80110a] mx-auto;
 }

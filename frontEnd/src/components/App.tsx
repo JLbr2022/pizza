@@ -5,10 +5,14 @@ import '../components/app.css'
 
 export default function App() {
   return (
-    <div className="container mx-auto">
-      <Header />
-      <Main />
-      <Footer />
+    <div className="container">
+      <div className="">
+        <Header />
+      </div>
+      <div className="">
+        <Main />
+        <Footer />
+      </div>
     </div>
   )
 }

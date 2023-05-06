@@ -1,6 +1,6 @@
 /* HAMBERGUER MENU BUTTON */
 .buttonMenu {
-  @apply inline-flex items-center text-sm mr-2 text-yellow-500 rounded-sm;
+  @apply text-yellow-500 rounded-sm;
 }
 
 .buttonMenu:focus {
@@ -11,7 +11,7 @@
   @apply scale-125 ease-out shadow-yellow-500;
 }
 
-/* DRAWER COMPONENT STYLES */
+/* ==== DRAWER COMPONENT STYLES ==== */
 
 /* BUTTON BEFORE Admin Access text*/
 .buttonAdminTitle {
