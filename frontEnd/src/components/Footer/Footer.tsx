@@ -4,9 +4,7 @@ import Promos from './Promos'
 function Footer() {
   return (
     <footer className="">
-      <section id="footer" className="">
         <Promos />
-      </section>
     </footer>
   )
 }

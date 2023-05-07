@@ -1,0 +1,9 @@
+.card-title {
+  @apply font-bold text-yellow-500 text-xl mb-1 flex justify-center;
+}
+.card-description {
+  @apply text-gray-300 text-base flex justify-center;
+}
+.card-price {
+  @apply text-yellow-500 font-semibold text-base flex justify-center;
+}

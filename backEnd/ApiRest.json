@@ -4,61 +4,78 @@
       "id": 1,
       "title": "Pizza con Tomate",
       "ingredients": "Tomate, Mozzarella, Aceitunas",
-      "price": 25
+      "price": 25,
+      "image": ""
     },
     {
       "id": 2,
-      "title": "Pizza con Papas",
-      "ingredients": "Papa, Mozzarella, Aceitunas",
-      "price": 30
+      "title": "Pizza con Ajo",
+      "ingredients": "Ajo, Mozzarella, Aceitunas",
+      "price": 30,
+      "image": "/src/public/images/pizzas/alho.jpg"
     },
     {
       "id": 3,
       "title": "Pizza con Peperoni",
       "ingredients": "Peperoni, Mozzarella, Aceitunas",
-      "price": 20
+      "price": 20,
+      "image": ""
     },
     {
       "id": 4,
       "title": "Pizza con Mozzarela",
       "ingredients": "Mozzarella, Aceitunas",
-      "price": 20
+      "price": 20,
+      "image": ""
     },
     {
       "id": 5,
       "title": "Pizza con Anchoas",
       "ingredients": "Anchoas, Mozzarella, Aceitunas",
-      "price": 50
+      "price": 50,
+      "image": ""
     },
     {
       "id": 6,
       "title": "Pizza con Brocoli",
       "ingredients": "Brocoli, Mozzarella, Aceitunas",
-      "price": 44
+      "price": 44,
+      "image": ""
     },
     {
       "id": 7,
       "title": "Pizza con Bacon",
       "ingredients": "Bacon, Mozzarella, Aceitunas",
-      "price": 33
+      "price": 33,
+      "image": ""
     },
     {
       "id": 8,
       "title": "Pizza con Chorizo",
       "ingredients": "Chorizo, Mozzarella, Aceitunas",
-      "price": 55
+      "price": 55,
+      "image": ""
     },
     {
       "id": 9,
       "title": "Pizza con Margarita",
       "ingredients": "Tomate, Mozzarella, Aceitunas",
-      "price": 43
+      "price": 43,
+      "image": ""
     },
     {
       "id": 10,
       "title": "Pizza con 4 Quesos",
       "ingredients": "4 Quesos, Mozzarella, Aceitunas",
-      "price": 48
+      "price": 48,
+      "image": ""
+    },
+    {
+      "id": 11,
+      "title": "Adicional de Queso",
+      "ingredients": "Mozzarella",
+      "price": 5,
+      "image": ""
     }
   ]
 }

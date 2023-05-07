@@ -1,18 +1,19 @@
 import Header from './Header/Header'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
-import '../components/app.css'
+import Search from './Search/Search'
+import './app.css'
+import { AppContext } from '../context/appContext'
+import { useStore } from '../context/useStore'
 
 export default function App() {
+  const store = useStore()
   return (
-    <div className="container">
-      <div className="">
-        <Header />
-      </div>
-      <div className="">
-        <Main />
-        <Footer />
-      </div>
-    </div>
+    <AppContext.Provider value={store}>
+      <Header />
+      <Search />
+      <Main />
+      <Footer />
+    </AppContext.Provider>
   )
 }

@@ -1,0 +1,21 @@
+.main-margin {
+    top: 150px;
+}
+
+@media screen and (min-width:768px) {
+    .main-margin {
+        top: 190px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .main-margin {
+        top: 220px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .main-margin {
+        top: 240px;
+    }
+}
