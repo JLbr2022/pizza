@@ -8,7 +8,7 @@ function Main() {
   const { filteredItems } = useContext(AppContext) as AppContextProps
 
   return (
-    <main className="main-margin">
+    <main className="main-margin scrollbar-hide">
       <div
         className="cards-layout
                     grid

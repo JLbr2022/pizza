@@ -43,8 +43,12 @@
   padding: 10px;
   display: flex;
   justify-content: center;
+
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
 
 .mmain {
   background-color: #04680e;
