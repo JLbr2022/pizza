@@ -6,7 +6,7 @@
 }
 
 .header-background {
-  background-image: url('src/public/images/BuildingsBackground.svg')
+  background-image: url('src/public/images/BuildingsBackground.svg');
 }
 
 .header-text {
