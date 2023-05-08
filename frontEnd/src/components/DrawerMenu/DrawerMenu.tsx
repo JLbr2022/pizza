@@ -5,7 +5,7 @@ import Login from 'components/Login/Login'
 function DrawerMenu() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <>
+    <div className="scrollbar-hide">
       {isOpen && <Login setIsOpen={setIsOpen} />}
       <div className="text-center">
         <button onClick={() => setIsOpen(!isOpen)} className="buttonMenu">
@@ -17,7 +17,7 @@ function DrawerMenu() {
               sm:w-12 sm:h-12
               xl:w-16 xl:h-16
 
-              transition-all hover:scale-10"
+              transition-all hover:scale-5"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ function DrawerMenu() {
           </svg>
         </button>
       </div>
-    </>
+    </div>
   )
 }
 

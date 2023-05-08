@@ -1,6 +1,10 @@
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* X BUTTON */
 .buttonXDrawer {
-  @apply mr-2 text-gray-300 bg-transparent rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center transform;
+  @apply text-gray-300 bg-transparent rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center transform;
 }
 
 .buttonXDrawer:hover {

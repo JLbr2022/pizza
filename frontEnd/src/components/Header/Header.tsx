@@ -3,7 +3,7 @@ import './header.css'
 
 export default function Avatar() {
   return (
-    <header className="header header-background">
+    <header className="header header-background scrollbar-hide">
       <div
         className="avatar avatar-image
           h-20 w-20 mt-6
@@ -14,7 +14,11 @@ export default function Avatar() {
       />
       <p
         className="header-text
-                  text-lg
+                  text-3xl
+                  sm:text-4xl
+                  md:text-5xl
+                  lg:text-6xl
+                  xl:text-7xl
                   [text-shadow:_0_3px_2px_rgb(0_0_0_/_40%)]
           "
       >
