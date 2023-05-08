@@ -1,28 +1,7 @@
 .search-form {
-  top: 85px;
-  z-index: 2;
-  width: 100%;
-  position: fixed;
-  padding: 1rem;
   background-color: var(--bg-color);
-}
-
-@media screen and (min-width: 768px) {
-  .search-form {
-    top: 130px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .search-form {
-    top: 160px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .search-form {
-    top: 180px;
-  }
+  width: 100%;
+  text-align: center;
 }
 
 .inputSearch {

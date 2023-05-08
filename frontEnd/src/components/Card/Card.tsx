@@ -6,22 +6,30 @@ export interface CardContent {
   ingredients: string
   price: number
   image: string
+  alt: string
 }
 
 interface CardProps {
   card: CardContent
 }
 
-const fallback = '/src/public/images/pz_Tomate.jpg'
+const fallback = '/src/public/images/pizzas/no-image-pizza.svg'
 
 function Card({ card }: CardProps) {
+  {
+    console.log(card.alt)
+  }
   return (
-    <div className="hover:shadow-2xl transition-shadow duration-300 ease-in-out">
-      <section className="card shadow-lg">
+    <div
+      className="hover:shadow-2xl transition-shadow ease-in-out
+                  transform hover: -translate-y-1 hover:scale-105 duration-500
+    "
+    >
+      <section className="shadow-lg flex flex-col">
         <img
           className="object-cover w-full h-48 pb-2"
           src={card.image || fallback}
-          alt="Pizza con tomate"
+          alt={card.alt}
         />
         <div className="card-container">
           <div className="card-title">{card.title}</div>

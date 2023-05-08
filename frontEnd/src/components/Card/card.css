@@ -1,5 +1,6 @@
 .card-container {
   @apply text-center flex flex-col justify-center items-center;
+  /* @apply text-center flex flex-col; */
 }
 
 .card-title {
@@ -7,8 +8,8 @@
 }
 
 .card-description {
-  @apply text-gray-300 text-base;
-  height: 92px;
+  @apply text-gray-300 text-base flex flex-col justify-center flex-wrap;
+  height: 100px;
 }
 
 .card-price {

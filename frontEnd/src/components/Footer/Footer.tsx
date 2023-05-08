@@ -3,8 +3,8 @@ import Promos from './Promos'
 
 function Footer() {
   return (
-    <footer className="">
-        <Promos />
+    <footer className="footer mt-6">
+      <Promos />
     </footer>
   )
 }

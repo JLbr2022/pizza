@@ -4,5 +4,5 @@
 }
 
 .buttonXDrawer:hover {
-  @apply bg-red-800 text-yellow-500 drop-shadow-md;
+  @apply text-yellow-500 drop-shadow-md;
 }

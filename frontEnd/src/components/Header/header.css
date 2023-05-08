@@ -1,10 +1,36 @@
+/*
+ new css
+*/
+.header {
+  @apply w-full bg-contain bg-center bg-repeat-x flex justify-between items-center;
+}
+
+.header-background {
+  background-image: url('src/public/images/BuildingsBackground.svg')
+}
+
+.header-text {
+  @apply text-yellow-500 font-black text-center;
+}
+
+.avatar {
+  @apply flex justify-center bg-center bg-no-repeat bg-contain h-20 w-20;
+}
+
+.avatar-image {
+  z-index: 3;
+  /* background-position: center;
+  background-size: 75%; */
+  background-image: url('/src/public/images/avatar.svg')
+}
+
 /* HAMBERGUER MENU BUTTON */
 .buttonMenu {
   @apply text-yellow-500 rounded-sm;
 }
 
 .buttonMenu:focus {
-  @apply outline-none ring-2 ring-red-500;
+  @apply scale-125;
 }
 
 .buttonMenu:hover {
@@ -22,35 +48,4 @@
 
 .buttonLogin:focus {
   @apply outline-none ring-2 ring-green-400;
-}
-
-/*
- new css
-*/
-.header {
-  @apply w-full bg-contain bg-center bg-repeat-x flex justify-between items-center;
-}
-
-.header-background {
-  background-image: url('src/public/images/BuildingsBackground.svg')
-}
-
-.avatar {
-  @apply flex justify-center bg-center bg-no-repeat bg-contain h-20 w-20;
-  /* @apply sm: h-20 sm:w-20;
-  @apply md: h-32 md:w-28;
-  @apply lg: h-40 lg:w-40;
-  @apply xl: h-44 xl:w-44; */
-}
-
-.avatar-image {
-  background-position: center;
-  background-size: 75%;
-  background-image: url('/src/public/images/avatar.svg')
-}
-
-.header-text {
-  @apply text-yellow-500 font-black text-center;
-  /* @apply sm: text-4xl;
-  @apply md: text-8xl; */
 }

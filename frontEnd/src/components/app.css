@@ -34,13 +34,12 @@ header {
   width: 100vw;
   position: fixed;
   overflow: hidden;
-  /* background-image: linear-gradient(180deg, #80110a 0%, #d89e9a 100%); */
   background-color: #80110a;
-  /* background-image: bg-gradient-to-b from-red-950 to-red-400; */
 }
 
 main {
   width: 100vw;
+  padding-bottom: 100px;
   overflow: hidden;
   position: relative;
 }

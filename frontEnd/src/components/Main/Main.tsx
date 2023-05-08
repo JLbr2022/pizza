@@ -10,13 +10,14 @@ function Main() {
   return (
     <main className="main-margin">
       <div
-        className="cards-layout grid 
-                      grid-cols-1
-                      sm:grid-cols-2
-                      md:grid-cols-3
-                      lg:grid-cols-4 
-                      xl:grid-cols-5
-                      gap-4 p-4"
+        className="cards-layout
+                    grid
+                    grid-cols-1
+                    sm:grid-cols-2
+                    md:grid-cols-3
+                    lg:grid-cols-4
+                    xl:grid-cols-5
+                    gap-4"
       >
         {filteredItems.map((card: CardContent) => (
           <Card key={card.id} card={card} />
