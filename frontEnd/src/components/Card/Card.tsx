@@ -19,11 +19,11 @@ function Card({ card }: CardProps) {
     <div className="hover:shadow-2xl transition-shadow duration-300 ease-in-out">
       <section className="card shadow-lg">
         <img
-          className="object-cover w-full h-48"
+          className="object-cover w-full h-48 pb-2"
           src={card.image || fallback}
           alt="Pizza con tomate"
         />
-        <div className="text-center">
+        <div className="card-container">
           <div className="card-title">{card.title}</div>
           <div className="card-description">{card.ingredients}</div>
           <div className="card-price">R$ {card.price}</div>

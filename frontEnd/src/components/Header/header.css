@@ -26,25 +26,31 @@
 
 /*
  new css
-*/ 
+*/
 .header {
-  @apply w-full bg-contain bg-center bg-repeat-x flex justify-between items-center;  
+  @apply w-full bg-contain bg-center bg-repeat-x flex justify-between items-center;
 }
+
 .header-background {
-  background-image: url('src/public/images/BuildingsBackground.svg') 
+  background-image: url('src/public/images/BuildingsBackground.svg')
 }
+
 .avatar {
   @apply flex justify-center bg-center bg-no-repeat bg-contain h-20 w-20;
-  @apply sm:h-20 sm:w-20;
-  @apply md:h-32 md:w-28;
-  @apply lg:h-40 lg:w-40;
-  @apply xl:h-44 xl:w-44;
+  /* @apply sm: h-20 sm:w-20;
+  @apply md: h-32 md:w-28;
+  @apply lg: h-40 lg:w-40;
+  @apply xl: h-44 xl:w-44; */
 }
+
 .avatar-image {
   background-position: center;
   background-size: 75%;
   background-image: url('/src/public/images/avatar.svg')
 }
+
 .header-text {
-  @apply text-yellow-500 font-black text-center text-3xl sm:text-4xl md:text-5xl
+  @apply text-yellow-500 font-black text-center;
+  /* @apply sm: text-4xl;
+  @apply md: text-8xl; */
 }

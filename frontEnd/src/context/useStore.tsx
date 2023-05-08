@@ -6,6 +6,7 @@ export type CardContent = {
   ingredients: string
   price: number
   image: string
+  alt: string
 }
 
 export const useStore = () => {

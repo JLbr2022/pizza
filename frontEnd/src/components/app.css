@@ -6,38 +6,45 @@
   .button {
     @apply text-yellow-900 absolute right-2.5 bottom-2 top-2 font-medium rounded-lg text-sm px-4 py-2 bg-yellow-400;
   }
-  
+
   .button:hover {
     @apply bg-green-700;
   }
-  
+
   .button:focus {
     @apply ring-4 outline-none ring-green-500;
   }
 }
 
 :root {
-  --bg-color: #80110a; 
+  --bg-color: #80110a;
 }
+
 body {
   background-color: var(--bg-color);
 }
+
 body::-webkit-scrollbar {
   display: none;
 }
+
 header {
   top: 0;
   z-index: 2;
   width: 100vw;
   position: fixed;
   overflow: hidden;
-  background-color: lightblue;
+  /* background-image: linear-gradient(180deg, #80110a 0%, #d89e9a 100%); */
+  background-color: #80110a;
+  /* background-image: bg-gradient-to-b from-red-950 to-red-400; */
 }
+
 main {
   width: 100vw;
   overflow: hidden;
   position: relative;
 }
+
 footer {
   z-index: 2;
   bottom: 0;

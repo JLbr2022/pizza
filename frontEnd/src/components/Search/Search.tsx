@@ -1,9 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './search.css'
-import { AppContext } from 'context/appContext'
+import { AppContext } from '../../context/appContext'
+import { AppContextProps } from '../../context/appContext'
 
 function Search() {
-  const { searchTerm, setSearchTerm } = useContext(AppContext)
+  const { searchTerm, setSearchTerm } = useContext(
+    AppContext
+  ) as AppContextProps
 
   function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
     setSearchTerm(event.target.value)

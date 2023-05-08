@@ -1,9 +1,16 @@
+.card-container {
+  @apply text-center flex flex-col justify-center items-center;
+}
+
 .card-title {
-  @apply font-bold text-yellow-500 text-xl mb-1 flex justify-center;
+  @apply font-bold text-yellow-500 text-xl mb-1;
 }
+
 .card-description {
-  @apply text-gray-300 text-base flex justify-center;
+  @apply text-gray-300 text-base;
+  height: 92px;
 }
+
 .card-price {
-  @apply text-yellow-500 font-semibold text-base flex justify-center;
+  @apply text-yellow-500 font-semibold text-base;
 }
