@@ -3,7 +3,13 @@ import Promos from './Promos'
 
 function Footer() {
   return (
-    <footer className="footer mt-6">
+    <footer
+      className="footer 
+      flex
+      flex-col
+      overflow-hidden
+      "
+    >
       <Promos />
     </footer>
   )

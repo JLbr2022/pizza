@@ -1,0 +1,844 @@
+{
+  "cardContent": [
+    {
+      "id": 1,
+      "title": "Alho",
+      "ingredients": "Mussarela, Alho tostado, Tomate, Azeitona, Orégano",
+      "price": 39,
+      "image": "./pizzas/alho.jpg",
+      "alt": "./Pizza de Alho"
+    },
+    {
+      "id": 2,
+      "title": "Aliche",
+      "ingredients": "Mussarela, Aliche, Tomate, Azeitona, Orégano",
+      "price": 42,
+      "image": "./pizzas/aliche.jpg",
+      "alt": "./Pizza de Aliche"
+    },
+    {
+      "id": 3,
+      "title": "Americana",
+      "ingredients": "Mussarela, Presunto, Bacon, Ovo, Azeitona, Orégano",
+      "price": 45,
+      "image": "./pizzas/americana.jpg",
+      "alt": "Pizza Americana"
+    },
+    {
+      "id": 4,
+      "title": "Atum",
+      "ingredients": "Mussarela, Atum, Cebola, TOmate, Azeitona, Orégano",
+      "price": 40,
+      "image": "./pizzas/atun.jpg",
+      "alt": "Pizza de Atum"
+    },
+    {
+      "id": 5,
+      "title": "Bauru",
+      "ingredients": "Mussarela, Presunto, Catupiry, Tomate, Azeitona, Orégano",
+      "price": 42,
+      "image": "./pizzas/bauru.jpg",
+      "alt": "Pizza de Bauru"
+    },
+    {
+      "id": 6,
+      "title": "Brasilera",
+      "ingredients": "Mussarela, Milho, Ervilha, Ovo, Catupiry, Azeitona, Orégano",
+      "price": 39,
+      "image": "./pizzas/brasilera.jpg",
+      "alt": "Pizza Brasileira"
+    },
+    {
+      "id": 7,
+      "title": "Bacon",
+      "ingredients": "Mozzarella, Bacon, Tomate, Aceitunas, Orégano",
+      "price": 39,
+      "image": "./pizzas/bacon.jpg",
+      "alt": "Pizza de Bacon"
+    },
+    {
+      "id": 9,
+      "title": "Brócolis",
+      "ingredients": "Mussarela, Brócolis, Tomate, Azeitona, Orégano",
+      "price": 39,
+      "image": "./pizzas/no-image-pizza.svg",
+      "alt": "Pizza de Brócolis"
+    },
+    {
+      "id": 10,
+      "title": "Brócolis com Alho",
+      "ingredients": "Mussarela, Brócolis, Alho tostado, Tomate, Azeitona, Orégano",
+      "price": 39,
+      "image": "./pizzas/brocoli-alho.jpg",
+      "alt": "Pizza de Brócolis com Alho"
+    },
+    {
+      "id": 11,
+      "title": "Brócolis com Bacon",
+      "ingredients": "Mozzarella, Brócolis, Bacon, Tomate, Azeitona, Orégano",
+      "price": 42,
+      "image": "./pizzas/no-image-pizza.svg",
+      "alt": "Pizza de Brócolis com Bacon"
+    },
+    {
+      "id": 12,
+      "title": "Brócolis com Catupiry",
+      "ingredients": "Mussarela, Brócolis, Catupiry, Tomate, Azeitona, Orégano",
+      "price": 39,
+      "image": "./pizzas/brocoli-catupiry.jpg",
+      "alt": "Pizza de Brócolis com Catupiry"
+    },
+    {
+      "id": 13,
+      "title": "Brócolis com Frango",
+      "ingredients": "Mussarela, Brócolis, Frango, Tomate, Azeitona, Orégano",
+      "price": 55,
+      "image": "./pizzas/brocoli-frango.jpg",
+      "alt": "Pizza de Brócolis com Frango"
+    },
+    {
+      "id": 14,
+      "title": "Brócolis 4 Queijos",
+      "ingredients": "Mussarela, Brócolis, Alho, Provolone, Paemesão, Gorgonzola, Azeitona, Orégano",
+      "price": 48,
+      "image": "",
+      "alt": "Pizza de Brócolis 4 Queijos"
+    },
+    {
+      "id": 15,
+      "title": "Caipira",
+      "ingredients": "Mussarela, Frango, Milho, Catupiry, Azeitona, Orégano, Batata Palha",
+      "price": 48,
+      "image": "./pizzas/caipira.jpg",
+      "alt": "Pizza Caipira"
+    },
+    {
+      "id": 16,
+      "title": "Calabresa",
+      "ingredients": "Mussarela, Calabrresa, Cebola, Azeitona, Orégano",
+      "price": 40,
+      "image": "./pizzas/calabresa.jpg",
+      "alt": "Pizza de Calabresa"
+    },
+    {
+      "id": 17,
+      "title": "Calabresa com Catupiry",
+      "ingredients": "Mussarela, Calabresa, Catupiry, Cebola, Azeitona, Orégano",
+      "price": 42,
+      "image": "./pizzas/calabresa-catupiry.jpg",
+      "alt": "Pizza de Calabresa com Catupiry"
+    },
+    {
+      "id": 18,
+      "title": "Calabresa Mineira",
+      "ingredients": "Mussarela, Calabresa, Milho, Cacon, Azeitona, Orégano",
+      "price": 48,
+      "image": "",
+      "alt": "Pizza de Calabresa Mineira"
+    },
+    {
+      "id": 19,
+      "title": "Carbonara",
+      "ingredients": "Mussarela, Bacon, Cebola, Ovo, Parmesão, Azeitona, Orégano",
+      "price": 42,
+      "image": "",
+      "alt": "Pizza de Carbonara"
+    },
+    {
+      "id": 20,
+      "title": "Carijó",
+      "ingredients": "Mussarela, Frango, Calabresa, Milho, Catupiry, Azeitona, Orégano",
+      "price": 58,
+      "image": "",
+      "alt": "Pizza Carijó"
+    },
+    {
+      "id": 21,
+      "title": "Cinco Queijos",
+      "ingredients": "Mussarela, Gorgonzola, Pratro, Provolone, Tomate, Catupiry, Azeitona, Orégano",
+      "price": 48,
+      "image": "",
+      "alt": "Pizza Cinco Queijos"
+    },
+    {
+      "id": 22,
+      "title": "Fórum Romano",
+      "ingredients": "Mussarela, Salame, Parmesão, Borda de Salchiha, Azitona, Orégano",
+      "price": 53,
+      "image": "",
+      "alt": "Pizza Fórum Romano"
+    },
+    {
+      "id": 23,
+      "title": "FranBacon",
+      "ingredients": "Mussarela, Frango, Bacon, Catupiry, Azeitona, Orégano",
+      "price": 58,
+      "image": "",
+      "alt": "Pizza FranBacon"
+    },
+    {
+      "id": 24,
+      "title": "Francesa",
+      "ingredients": "Mussarela, Peito de Peru, Queijo, Provolone, Tomate, Azeitona, Orégano",
+      "price": 50,
+      "image": "",
+      "alt": "Pizza Francesa"
+    },
+    {
+      "id": 25,
+      "title": "Franco com Catupiry",
+      "ingredients": "Mussarela, Frango, Catupiry, Azeitona, Orégano",
+      "price": 48,
+      "image": "",
+      "alt": "Pizza de Franco com Catupiry"
+    },
+    {
+      "id": 26,
+      "title": "Frango",
+      "ingredients": "Mussarela, Frango, Azeitona, Orégano",
+      "price": 44,
+      "image": "",
+      "alt": "Pizza de Frango"
+    },
+    {
+      "id": 27,
+      "title": "Frango 3 Queijos",
+      "ingredients": "Mussarela, Frango, Prato, Catupiry, Azeitona, Orégano",
+      "price": 53,
+      "image": "",
+      "alt": "Pizza de Frango 3 Queijos"
+    },
+    {
+      "id": 28,
+      "title": "Frango com Calabresa",
+      "ingredients": "Mussarela, Frango, Calabresa, Catupiry, Azeitona, Orégano",
+      "price": 58,
+      "image": "",
+      "alt": "Pizza de Frango com Calabresa"
+    },
+    {
+      "id": 29,
+      "title": "Greca",
+      "ingredients": "Mussarela, Milho, Ervilha, Pimentão, Uva, Passa, Tomate, Azeitona, Orégano",
+      "price": 38,
+      "image": "",
+      "alt": "Pizza Greca"
+    },
+    {
+      "id": 30,
+      "title": "Hawaiana",
+      "ingredients": "Mussarela, Presunto, Cebola, Abacaxi, Pimentão, Azeitona, Orégano",
+      "price": 42,
+      "image": "",
+      "alt": "Pizza Hawaiana"
+    },
+    {
+      "id": 61,
+      "title": "Marguerita",
+      "ingredients": "Mussarela, Brócolis, Alho, Provolone, Paemesão, Gorgonzola, Azeitona, Orégano",
+      "price": 40,
+      "image": "",
+      "alt": "Pizza Marguerita"
+    },
+    {
+      "id": 31,
+      "title": "Milho",
+      "ingredients": "Mussarela, Milho, Tomate, Azeitona, Orégano",
+      "price": 39,
+      "image": "",
+      "alt": "Pizza de Milho"
+    },
+    {
+      "id": 32,
+      "title": "MODA DA CASA",
+      "ingredients": "Mussarela, Frango, Calabresa, Palmito, Azeitona, Orégano",
+      "price": 48,
+      "image": "",
+      "alt": "Pizza Moda da Casa"
+    },
+    {
+      "id": 33,
+      "title": "Mussarela",
+      "ingredients": "Mussarela, Tomate, Azeitona, Orégano",
+      "price": 48,
+      "image": "",
+      "alt": "Pizza de Mussarela"
+    },
+    {
+      "id": 34,
+      "title": "Palmito",
+      "ingredients": "Mussarela, Palmito, Tomate, Azeitona, Orégano",
+      "price": 39,
+      "image": "",
+      "alt": "Pizza de Palmito"
+    },
+    {
+      "id": 35,
+      "title": "Paulista",
+      "ingredients": "Mussarela, Milho, Palmito, Ervilha, Tomate, Azeitona, Orégano",
+      "price": 37,
+      "image": "",
+      "alt": "Pizza Paulista"
+    },
+    {
+      "id": 36,
+      "title": "Peito de Peru",
+      "ingredients": "Mussarela, Peito de Peru, Tomate, Azeitona, Orégano",
+      "price": 44,
+      "image": "",
+      "alt": "Pizza de Peito de Peru"
+    },
+    {
+      "id": 37,
+      "title": "Peito de Peru / Catupiry",
+      "ingredients": "Mussarela, Peito de Peru, Catupiry, Tomate, Azeitona, Orégano",
+      "price": 47,
+      "image": "",
+      "alt": "Pizza de Peito de Peru com Catupiry"
+    },
+    {
+      "id": 38,
+      "title": "Pizzaiolo",
+      "ingredients": "Mussarela, Presunto, Champignon, Catupiry, Tomate, Azeitona, Orégano",
+      "price": 43,
+      "image": "",
+      "alt": "Pizza Pizzaiolo"
+    },
+    {
+      "id": 39,
+      "title": "Portuguesa",
+      "ingredients": "Mussarela, Presunto, Cebola, Palmito, Ervilha, Ovo, Azeitona, Orégano",
+      "price": 40,
+      "image": "",
+      "alt": "Pizza Portuguesa"
+    },
+    {
+      "id": 40,
+      "title": "Presunto e Quijo",
+      "ingredients": "Mussarela, Presunto, Milho, Tomate, Azeitona, Orégano",
+      "price": 40,
+      "image": "",
+      "alt": "Pizza de Presunto e Queijo"
+    },
+    {
+      "id": 41,
+      "title": "Quatro Estaçoes",
+      "ingredients": "Mussarela, Presunto-Miilho, Champignon, Palmito, Calabresa-Cebola, Tomate, Azeitona, Orégano",
+      "price": 53,
+      "image": "",
+      "alt": "Pizza Quatro Estações"
+    },
+    {
+      "id": 42,
+      "title": "Quatro Queijos I",
+      "ingredients": "Mussarela, Prato, Provolone, Catupiry, Tomate, Azeitona, Orégano",
+      "price": 45,
+      "image": "",
+      "alt": "Pizza Quatro Queijos I"
+    },
+    {
+      "id": 43,
+      "title": "Quatro Queijos II",
+      "ingredients": "Mussarela, Prato, Provolone, Parmesão, Catupiry, Tomate, Azeitona, Orégano",
+      "price": 47,
+      "image": "",
+      "alt": "Pizza Quatro Queijos II"
+    },
+    {
+      "id": 44,
+      "title": "Rainha",
+      "ingredients": "Mussarela, Frango, Presunto, Calabresa, Peito de Peru, Cebola, Bacon, Palmito, Milho, Ervilha, Azeitona, Orégano",
+      "price": 68,
+      "image": "",
+      "alt": "Pizza Rainha"
+    },
+    {
+      "id": 45,
+      "title": "Salame",
+      "ingredients": "Mussarela, Salame, Tomate, Azeitona, Orégano",
+      "price": 40,
+      "image": "",
+      "alt": "Pizza de Salame"
+    },
+    {
+      "id": 46,
+      "title": "Salame com Bacon",
+      "ingredients": "Mussarela, Salame, Bacon, Tomate, Azeitona, Orégano",
+      "price": 45,
+      "image": "",
+      "alt": "Pizza de Salame com Bacon"
+    },
+    {
+      "id": 47,
+      "title": "Siciliana",
+      "ingredients": "Mussarela, Bacon, Cebola, Champignon, Tomate, Azeitona, Salsa",
+      "price": 40,
+      "image": "",
+      "alt": "Pizza Siciliana"
+    },
+    {
+      "id": 48,
+      "title": "Saboro",
+      "ingredients": "Mussarela, Tomate, Milho, Ovo, Azeitona, Orégano",
+      "price": 38,
+      "image": "",
+      "alt": "Pizza Saboro"
+    },
+    {
+      "id": 49,
+      "title": "Suprema",
+      "ingredients": "Mussarela, Bacon, Milho, Catupiry, Azeitona, Orégano",
+      "price": 42,
+      "image": "",
+      "alt": "Pizza Suprema"
+    },
+    {
+      "id": 50,
+      "title": "Tomate Seco",
+      "ingredients": "Mussarela, Tomate Seco, Brócoli, Tomate, Azeitona, Orégano",
+      "price": 39,
+      "image": "",
+      "alt": "Pizza Tomate Seco"
+    },
+    {
+      "id": 51,
+      "title": "Toscana",
+      "ingredients": "Mussarela, Presunto, Calabresa, Cebola, Azeitona, Orégano",
+      "price": 42,
+      "image": "",
+      "alt": "Pizza Toscana"
+    },
+    {
+      "id": 52,
+      "title": "Vegetriana",
+      "ingredients": "Mussarela, Brócolis, Tomate, Milho, Ervilha, Azeitona, Orégano",
+      "price": 39,
+      "image": "",
+      "alt": "Pizza Vegetariana"
+    },
+    {
+      "id": 53,
+      "title": "Vienesa",
+      "ingredients": "Mussarela, Calabresa, Cebola, Pimentão, Azeitona, Orégano",
+      "price": 42,
+      "image": "",
+      "alt": "Pizza Vienesa"
+    },
+    {
+      "id": 54,
+      "title": "Banana com Canela (DOCE)",
+      "ingredients": "Mussarela, Leite Condensado, Banana, Canela",
+      "price": 48,
+      "image": "",
+      "alt": "Pizza com Banana com Canela"
+    },
+    {
+      "id": 55,
+      "title": "Banana com Nutella (DOCE)",
+      "ingredients": "Mussarela, Leite Condensado, Banana, Nutella",
+      "price": 39,
+      "image": "",
+      "alt": "Pizza com Banana com Nutella"
+    },
+    {
+      "id": 56,
+      "title": "Chokito (DOCE)",
+      "ingredients": "Leite Condensado, Chocolate com Avelã, Sonho de Valsa, Chuva de Chocolate",
+      "price": 45,
+      "image": "",
+      "alt": "Pizza com Chokito"
+    },
+    {
+      "id": 57,
+      "title": "Leite Ninho (DOCE)",
+      "ingredients": "Mussarela, Leite Condensado, Chocolate ao Leite, Leite Ninho",
+      "price": 42,
+      "image": "",
+      "alt": "Pizza com Leite Ninho"
+    },
+    {
+      "id": 58,
+      "title": "Morango (DOCE)",
+      "ingredients": "Morango, Leite Condensado, Chocolate com Avelã",
+      "price": 39,
+      "image": "",
+      "alt": "Pizza com Morango"
+    },
+    {
+      "id": 59,
+      "title": "Romeo e Julieta (DOCE)",
+      "ingredients": "Mussarela, Leite Condensado, Goiabada",
+      "price": 39,
+      "image": "",
+      "alt": "Pizza Romeu e Julieta"
+    },
+    {
+      "id": 62,
+      "title": "CATUPIRY",
+      "ingredients": "Adicional de Catupiry",
+      "price": 10,
+      "image": "",
+      "alt": "Adicional de Catupiry"
+    },
+    {
+      "id": 63,
+      "title": "CHEDDAR",
+      "ingredients": "Adicional de queijo Cheddar",
+      "price": 10,
+      "image": "",
+      "alt": "Adicional de Cheddar"
+    },
+    {
+      "id": 64,
+      "title": "GORGONZOLA",
+      "ingredients": "Adicional de Gordonzola",
+      "price": 15,
+      "image": "",
+      "alt": "Adicional de Gorgonzola"
+    },
+    {
+      "id": 65,
+      "title": " MUSSARELA",
+      "ingredients": "Adicional de Mussarela",
+      "price": 15,
+      "image": "",
+      "alt": "Adicional de Mussarela"
+    },
+    {
+      "id": 99,
+      "title": " PARMESÃO",
+      "ingredients": "Adicional de Parmesão",
+      "price": 14,
+      "image": "",
+      "alt": "Adicional de Parmesão"
+    },
+    {
+      "id": 66,
+      "title": " PROVOLONE",
+      "ingredients": "Adicional de Provolone",
+      "price": 15,
+      "image": "",
+      "alt": "Adicional de Provolone"
+    },
+    {
+      "id": 67,
+      "title": " PRATO",
+      "ingredients": "Adicional de Prato",
+      "price": 12,
+      "image": "",
+      "alt": "Adicional de Prato"
+    },
+    {
+      "id": 68,
+      "title": "ALICHE",
+      "ingredients": "Adicional de Aliche",
+      "price": 10,
+      "image": "",
+      "alt": "Adicional de Aliche"
+    },
+    {
+      "id": 69,
+      "title": "BACON",
+      "ingredients": "Adicional de Bacon",
+      "price": 8,
+      "image": "",
+      "alt": "Adicional de Bacon"
+    },
+    {
+      "id": 70,
+      "title": "CALABRESA",
+      "ingredients": "Adicional de Calabresa",
+      "price": 8,
+      "image": "",
+      "alt": "Adicional de Calabresa"
+    },
+    {
+      "id": 71,
+      "title": "FRANGO",
+      "ingredients": "Adicional de Frango",
+      "price": 12,
+      "image": "",
+      "alt": "Adicional de Frango"
+    },
+    {
+      "id": 72,
+      "title": "PEITO DE PERU",
+      "ingredients": "Adicional de Peito de Peru",
+      "price": 10,
+      "image": "",
+      "alt": "Adicional de Peito de Peru"
+    },
+    {
+      "id": 73,
+      "title": "PRESUNTO",
+      "ingredients": "Adicional de Presunto",
+      "price": 12,
+      "image": "",
+      "alt": "Adicional de Presunto"
+    },
+    {
+      "id": 74,
+      "title": "PEPERONE",
+      "ingredients": "Adicional de Peperone",
+      "price": 8,
+      "image": "",
+      "alt": "Adicional de Peperone"
+    },
+    {
+      "id": 75,
+      "title": "ABACAXI",
+      "ingredients": "Adicional de Abacaxi",
+      "price": 3,
+      "image": "",
+      "alt": "Adicional de Abacaxi"
+    },
+    {
+      "id": 76,
+      "title": "ALHO",
+      "ingredients": "Adicional de Alho",
+      "price": 2,
+      "image": "",
+      "alt": "Adicional de Alho"
+    },
+    {
+      "id": 77,
+      "title": "BATATA PALHA",
+      "ingredients": "Adicional de Batala Palha",
+      "price": 6,
+      "image": "",
+      "alt": "Adicional de Batata Palha"
+    },
+    {
+      "id": 78,
+      "title": "BRÓCOLIS",
+      "ingredients": "Adicional de Brócolis",
+      "price": 4,
+      "image": "",
+      "alt": "Adicional de Brócolis"
+    },
+    {
+      "id": 79,
+      "title": "CHAMPIGNON",
+      "ingredients": "Adicional de Champignon",
+      "price": 4,
+      "image": "",
+      "alt": "Adicional de Champignon"
+    },
+    {
+      "id": 80,
+      "title": "CEBOLA",
+      "ingredients": "Adicional de Cebola",
+      "price": 2,
+      "image": "",
+      "alt": "Adicional de Cebola"
+    },
+    {
+      "id": 81,
+      "title": "ERVILHA",
+      "ingredients": "Adicional de Ervilha",
+      "price": 2,
+      "image": "",
+      "alt": "Adicional de Ervilha"
+    },
+    {
+      "id": 82,
+      "title": "MILHO",
+      "ingredients": "Adicional de Milho",
+      "price": 3,
+      "image": "",
+      "alt": "Adicional de Milho"
+    },
+    {
+      "id": 83,
+      "title": "PALMITO",
+      "ingredients": "Adicional de palmito",
+      "price": 8,
+      "image": "",
+      "alt": "Adicional de Palmito"
+    },
+    {
+      "id": 84,
+      "title": "PIMENTÃO",
+      "ingredients": "Adicional de Pimentão",
+      "price": 4,
+      "image": "",
+      "alt": "Adicional de Pimentão"
+    },
+    {
+      "id": 85,
+      "title": "OVO",
+      "ingredients": "Adicional de Ovo",
+      "price": 2,
+      "image": "",
+      "alt": "Adicional de Ovo"
+    },
+    {
+      "id": 86,
+      "title": "TOMATE SECO",
+      "ingredients": "Adicional de Tomate Seco",
+      "price": 2,
+      "image": "",
+      "alt": "Adicional de Tomate Seco"
+    },
+    {
+      "id": 87,
+      "title": "TOMATE",
+      "ingredients": "Adicional de Tomate",
+      "price": 2,
+      "image": "",
+      "alt": "Adicional de Tomate"
+    },
+    {
+      "id": 88,
+      "title": "UVA PASA",
+      "ingredients": "Adicional de Uva Passa",
+      "price": 2,
+      "image": "",
+      "alt": "Adicional de Uva Passa"
+    },
+    {
+      "id": 89,
+      "title": "VOLCÃO de CATUPIRY",
+      "ingredients": "VOLCÃO de Catupiry",
+      "price": 14,
+      "image": "",
+      "alt": "Adicional: VOLCÃO de Catupiry"
+    },
+    {
+      "id": 90,
+      "title": "VOLCÃO de CHEDDAR",
+      "ingredients": "Adicional: VOLCÃO de queijo Cheddar",
+      "price": 12,
+      "image": "",
+      "alt": "VOLCÃO de Cheddar"
+    },
+    {
+      "id": 91,
+      "title": "VOLCÃO de CHOCOLATE",
+      "ingredients": "Adicional: VOLCÃO de Chocolate",
+      "price": 11,
+      "image": "",
+      "alt": "VOLCÃO de Chocolate"
+    },
+    {
+      "id": 92,
+      "title": "VOLCÃO de GOIABADA",
+      "ingredients": "Adicional: VOLCÃO de Goiabada",
+      "price": 10,
+      "image": "",
+      "alt": "VOLCÃO de Goiabada"
+    },
+    {
+      "id": 93,
+      "title": "VOLCÃO de MUSSARELA",
+      "ingredients": "Adicional: VOLCÃO de Chocolate",
+      "price": 17,
+      "image": "",
+      "alt": "VOLCÃO de Mussarela"
+    },
+    {
+      "id": 94,
+      "title": "BORDA de CATUPIRY",
+      "ingredients": "Adicional: BORDA de Catupiry",
+      "price": 14,
+      "image": "",
+      "alt": "BORDA de Catupiry"
+    },
+    {
+      "id": 95,
+      "title": "BORDA de CHEDDAR",
+      "ingredients": "Adicional: BORDA de queijo Cheddar",
+      "price": 12,
+      "image": "",
+      "alt": "BORDA de Cheddar"
+    },
+    {
+      "id": 96,
+      "title": "BORDA de CHOCOLATE",
+      "ingredients": "Adicional: BORDA de Chocolate",
+      "price": 11,
+      "image": "",
+      "alt": "BORDA de Chocolate"
+    },
+    {
+      "id": 97,
+      "title": "BORDA de GOIABADA",
+      "ingredients": "Adicional: BORDA de Goiabada",
+      "price": 10,
+      "image": "",
+      "alt": "BORDA de Goiabada"
+    },
+    {
+      "id": 98,
+      "title": "BORDA de MUSSARELA",
+      "ingredients": "Adicional: BORDA de Mussarela",
+      "price": 17,
+      "image": "",
+      "alt": "BORDA de Mussarela"
+    },
+    {
+      "id": 107,
+      "title": "COCA COLA 600ml",
+      "ingredients": "Bebida: Coca Cola de 600ml",
+      "price": 9,
+      "image": "./bebidas/bebida-cocacola.svg",
+      "alt": "Coca Cola 600ml"
+    },
+    {
+      "id": 100,
+      "title": "COCA COLA 2 Lt",
+      "ingredients": "Bebida: Coca Cola de 2 Litros",
+      "price": 12,
+      "image": "./bebidas/bebida-cocacola.svg",
+      "alt": "Coca Cola 2 Lt"
+    },
+    {
+      "id": 101,
+      "title": "COCA COLA 2.5 Lt",
+      "ingredients": "Bebida: Coca Cola de 2.5 Litros",
+      "price": 14,
+      "image": "./bebidas/bebida-cocacola.svg",
+      "alt": "Coca Cola 2.5 Lt"
+    },
+    {
+      "id": 102,
+      "title": "GUARANA ANTÁRTICA 600ml",
+      "ingredients": "Bebida: Guarana Antártica de 600ml",
+      "price": 7,
+      "image": "./bebidas/bebida-guarana-antarctica.svg",
+      "alt": "Guarana Antártica 600ml"
+    },
+    {
+      "id": 103,
+      "title": "GUARANA ANTÁRTICA 1.5 Lt",
+      "ingredients": "Bebida: Guarana Antártica de 1.5 Lt",
+      "price": 8.25,
+      "image": "./bebidas/bebida-guarana-antarctica.svg",
+      "alt": "Guarana Antártica 1.5 Lt"
+    },
+    {
+      "id": 104,
+      "title": "GUARANA ANTÁRTICA 2 Lt",
+      "ingredients": "Bebida: Guarana Antártica de 2 Lt",
+      "price": 10,
+      "image": "./bebidas/bebida-guarana-antarctica.svg",
+      "alt": "Guarana Antártica 2 Lt"
+    },
+    {
+      "id": 105,
+      "title": "FANTA LARANJA 1.5 Lt",
+      "ingredients": "Bebida: Fanta Laranja 1.5 Lt",
+      "price": 8,
+      "image": "./bebidas/bebida-fanta-laranja.svg",
+      "alt": "Fanta Laranja 1.5 Lt"
+    },
+    {
+      "id": 106,
+      "title": "FANTA LARANJA 2.5 Lt",
+      "ingredients": "Bebida: Fanta Laranja 2.5 Lt",
+      "price": 10,
+      "image": "./bebidas/bebida-fanta-laranja.svg",
+      "alt": "Fanta Laranja 2.5 Lt"
+    }
+  ]
+}

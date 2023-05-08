@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import jsondata from './ApiRest.json'
 
 export type CardContent = {
   id: number
@@ -14,15 +15,17 @@ export const useStore = () => {
   const [filteredItems, setFilteredItems] = useState<CardContent[]>([])
   const [searchTerm, setSearchTerm] = useState('')
 
+  console.log(items)
   const getItems = async () => {
-    const response = await fetch('http://localhost:3000/cardContent')
-    const data = await response.json()
-
-    setItems(data)
-    setFilteredItems(data)
+    // const response = await fetch('http://localhost:3000/cardContent')
+    // const data = await response.json()
   }
   useEffect(() => {
-    getItems()
+    setTimeout(() => {
+      setItems(jsondata.cardContent as CardContent[])
+      setFilteredItems(jsondata.cardContent)
+    }, 300)
+    // getItems()
   }, [])
 
   useEffect(() => {

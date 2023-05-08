@@ -6,7 +6,7 @@
 }
 
 .header-background {
-  background-image: url('src/public/images/BuildingsBackground.svg');
+  background-image: url('./BuildingsBackground.svg');
 }
 
 .header-text {
@@ -21,7 +21,7 @@
   z-index: 3;
   /* background-position: center;
   background-size: 75%; */
-  background-image: url('/src/public/images/avatar.svg')
+  background-image: url('./avatar.svg')
 }
 
 .scrollbar-hide::-webkit-scrollbar {

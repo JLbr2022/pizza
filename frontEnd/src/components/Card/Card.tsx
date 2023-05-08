@@ -13,7 +13,7 @@ interface CardProps {
   card: CardContent
 }
 
-const fallback = '/src/public/images/pizzas/no-image-pizza.svg'
+const fallback = './no-image-pizza.svg'
 
 function Card({ card }: CardProps) {
   {
@@ -28,7 +28,7 @@ function Card({ card }: CardProps) {
       <section id="card-section" className="shadow-lg flex flex-col">
         <img
           className="object-cover w-full h-48 pb-2 rounded-md"
-          src={card.image || fallback}
+          src={new URL(`${card.image || fallback}`, import.meta.url).href}
           alt={card.alt}
         />
         <div className="card-container">
