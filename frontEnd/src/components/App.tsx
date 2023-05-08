@@ -12,7 +12,7 @@ export default function App() {
   return (
     <AppContext.Provider value={store}>
       <div
-        className="container border-4 border-green-500 bg-[#80110A] mx-auto w-full
+        className="container bg-[#80110A] mx-auto w-full
           scrollbar-hide"
       >
         <div className="header">

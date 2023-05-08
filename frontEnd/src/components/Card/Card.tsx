@@ -21,13 +21,13 @@ function Card({ card }: CardProps) {
   }
   return (
     <div
-      className="hover:shadow-2xl transition-shadow ease-in-out
+      className="rounded-lg hover:shadow-2xl transition-shadow ease-in-out
                   transform hover: -translate-y-1 hover:scale-105 duration-500
     "
     >
-      <section className="shadow-lg flex flex-col">
+      <section id="card-section" className="shadow-lg flex flex-col">
         <img
-          className="object-cover w-full h-48 pb-2"
+          className="object-cover w-full h-48 pb-2 rounded-md"
           src={card.image || fallback}
           alt={card.alt}
         />
