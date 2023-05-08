@@ -6,7 +6,11 @@ interface LoginProps {
 
 const Login = ({ setIsOpen }: LoginProps) => {
   return (
-    <div id="drawer-bottom-example" className="buttonAdminTitle">
+    <div
+      id="drawer-bottom-example"
+      className="buttonAdminTitle
+                backdrop-blur-sm bg-green-800/80"
+    >
       <h5 className="h5Drawer">
         <svg
           className="w-5 h-5 mr-2"
